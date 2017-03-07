@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28751" started-at="2017-03-07T18:47:14Z" finished-at="2017-03-07T18:47:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28751" started-at="2017-03-07T18:47:14Z" finished-at="2017-03-07T18:47:43Z">
+      <class name="com.amazon.tests.ProductSelectionTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.amazon.tests.ProductSelectionTest@18be83e4]" name="beforeClass" is-config="true" duration-ms="12667" started-at="2017-03-07T10:47:14Z" finished-at="2017-03-07T10:47:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="productPage()[pri:0, instance:com.amazon.tests.ProductSelectionTest@18be83e4]" name="productPage" duration-ms="6524" started-at="2017-03-07T10:47:26Z" finished-at="2017-03-07T10:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productPage -->
+        <test-method status="PASS" signature="selectQty()[pri:0, instance:com.amazon.tests.ProductSelectionTest@18be83e4]" name="selectQty" duration-ms="4134" started-at="2017-03-07T10:47:33Z" finished-at="2017-03-07T10:47:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectQty -->
+        <test-method status="PASS" signature="verifyProductTitle()[pri:0, instance:com.amazon.tests.ProductSelectionTest@18be83e4]" name="verifyProductTitle" duration-ms="86" started-at="2017-03-07T10:47:37Z" finished-at="2017-03-07T10:47:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductTitle -->
+        <test-method status="PASS" signature="addToCart()[pri:0, instance:com.amazon.tests.ProductSelectionTest@18be83e4]" name="addToCart" duration-ms="2016" started-at="2017-03-07T10:47:37Z" depends-on-methods="com.amazon.tests.ProductSelectionTest.selectQty" finished-at="2017-03-07T10:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="emptyCart()[pri:0, instance:com.amazon.tests.ProductSelectionTest@18be83e4]" name="emptyCart" duration-ms="3133" started-at="2017-03-07T10:47:39Z" depends-on-methods="com.amazon.tests.ProductSelectionTest.addToCart" finished-at="2017-03-07T10:47:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyCart -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.amazon.tests.ProductSelectionTest@18be83e4]" name="afterClass" is-config="true" duration-ms="140" started-at="2017-03-07T10:47:42Z" finished-at="2017-03-07T10:47:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.amazon.tests.ProductSelectionTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
